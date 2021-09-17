@@ -1,0 +1,56 @@
+void main(){
+//   ============= Answer#1 =================
+  print("Please See Answer#1 in word File");
+  
+  
+//   ============= Answer#2 =================
+  
+  print("================= Answer#4 =============") ;
+  var a = 2; // === declare a ===
+  
+  var b = 1; // === declare b ===
+ var result = --a - --b + ++b + b--; //=== declare result variable  ===
+  // first in a is pre decrement "a" then - pre decrement "b" then + pre increment then + pre increment then last + post decrement 
+--a; // == whatever you get answer . The answer first pre decrement ==
+--a - --b;  // == pre decrement "a" then - pre decrement "b"
+  --a - --b + ++b; // == pre decrement "a" then - pre decrement "b" then + pre increment "b"==
+  --a - --b + ++b + b--;// == pre decrement "a" then - pre decrement "b" then + pre increment "b" then + post decrement==
+  print(a);          // == Output "-3" ==
+  print(b);         // == Output "-2" ==
+  print(result);   // == Output "3" ==
+  
+  
+//   ============= Answer#3 =================
+  
+  print("================= Answer#3 =============") ;
+  
+  var movieTicketPrice = 600 ;
+  var buying5Tickets ;
+  buying5Tickets = movieTicketPrice*5;
+  print("The cost of buying 5 movie Ticket is ${buying5Tickets} PKR") ;
+  
+  
+  
+  
+//   ============= Answer#4 =================
+  print("================= Answer#4 =============") ;
+   var list1 = [1,2,3,4,5,6,7];
+   var list2 = [3,5,6,7,9,10];
+   list1.removeWhere((e) => list2.contains(e));
+  print(list1);
+  print(list2);
+  
+  
+  
+//   ============= Answer#5 ====================
+  print("Please See Answer#5 in word File");
+  
+  
+  
+  
+  
+  
+//   ============= Answer#6 ====================
+  print("Please See Answer# in word File");
+  
+}
