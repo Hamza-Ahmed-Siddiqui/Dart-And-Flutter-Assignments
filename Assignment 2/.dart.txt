@@ -5,7 +5,7 @@ void main(){
   
 //   ============= Answer#2 =================
   
-  print("================= Answer#4 =============") ;
+  print("================= Answer#2 =============") ;
   var a = 2; // === declare a ===
   
   var b = 1; // === declare b ===
@@ -43,7 +43,7 @@ void main(){
   
   
 //   ============= Answer#5 ====================
-  print("Please See Answer#5 in word File");
+  print("===========Please See Answer#5 in word File============");
   
   
   
@@ -51,6 +51,98 @@ void main(){
   
   
 //   ============= Answer#6 ====================
-  print("Please See Answer# in word File");
+  print("=============Please See Answer#6 in word File=========");
+  
+  
+  
+  
+  //   ============= Answer#7 ====================
+  print("============== Answer#7 ================");
+ 
+  var firstArray = [7,14,21,28,35,42,49,56,63,70];
+  var secondArray = [1,2,3,4,5,6,7,8,9,10];
+  var mapMethod = Map.fromIterables(secondArray,firstArray);
+  print(" The table of  7 is =  ${mapMethod}");
+  
+  
+  
+  
+  
+  
+  //   ============= Answer#8 ====================
+  print("============== Answer#8 ================");
+  
+  var correctPassword = "Hamza123";
+  var checkPassword ;
+  
+  if(correctPassword == checkPassword){
+    print(" The Password is correct : Thankyou !!!");
+  }else if(correctPassword !=checkPassword){
+    print("The Password is incorrect ... Enter Correct Password");
+  }else {
+    print("Please Enter Password !!! ");
+  }
+  
+  
+  
+  
+   //   ============= Answer#9 ====================
+  print("============== Answer#9 ================");
+  var studentArray1 = ["Hamza","Ahmed","Siddiqui"];
+  var studentArray2 = [450,500,300];
+  
+  var numm = (studentArray2[0]*100 )/500;
+  print("The student name is: ${studentArray1[0]} \n Your Obtained Marks is : ${studentArray2[0]} \n Percentage is ${numm}");
+  
+  
+  
+  
+  
+  //   ============= Answer#10 ====================
+  print("============== Answer10 ================");
+  
+  // =========== Legal Variable Names ============
+  print("=========== Legal Variable Names ============");
+//   var hamzaAhmed;
+//   var hamza123 ; 
+//   var hamza_ahmed ;
+//   var hamza123Ahmed ;
+//   var hamza_ahmed_123 ;
+    
+  // =========== Il Legal Variable Names ============
+  print("=========== Il Legal Variable Names ============");
+//   var 123 ;
+//   var 123hamza ;
+//   var @hamza;
+//   var List ;
+//   var hamza ahmed;
+  
+  
+  
+  
+  
+  //   ============= Answer#11 ====================
+  print("============== Answer11 ================");
+  
+  var nameFirst = "Hyder";
+  var nameSecond = nameFirst+"abad";
+  print(" The First name is ${nameSecond}");
+  nameFirst = "Islam";
+  var changeName = nameFirst+"abad";
+  print(" The Second Changed name is ${changeName}");
+  
+//   nameFirst+nameSecond;
+//   var firstWordArray = ["Hyder", "abad"];
+//   print("First Word ${firstWordArray }");
+//   var secondWordArray = firstWordArray[0]
+  
+  
+  
+
+  //   ============= Answer#12 ====================
+  print("============== Answer12 ================");
+  
+  
+  
   
 }
