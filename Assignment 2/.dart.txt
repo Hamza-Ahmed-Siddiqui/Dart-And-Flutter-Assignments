@@ -139,9 +139,40 @@ void main(){
   
   
 
-  //   ============= Answer#12 ====================
-  print("============== Answer12 ================");
+    
+  //   ============= Answer#12  And 13 ====================
+  print("============== Answer12 And 13 ================");
   
+  print("============== Generate K-Electric Bill ================");
+  
+  var customerName = "Hamza Ahmed Siddiqui";
+  var currentMonth = "September";
+  var numberOfUnits  = 256;
+  var chargesPerUnits = 22;
+  var payWithinDate = numberOfUnits*chargesPerUnits;
+  var latePaymentCharges = 155;
+  var afterDate = (numberOfUnits*chargesPerUnits)+latePaymentCharges;
+  DateTime now = new DateTime.now();
+  var fifteenDaysFromNow = now.add(const Duration(days: 15));
+  print(fifteenDaysFromNow);
+  print(now);
+  print("The Customer Name is : ${customerName}");
+  print("The Current  Month is: ${currentMonth}");
+  print("The Customer Use is: ${numberOfUnits} Units In This Month");
+  print("The Customer Required bill Within Due Date is: ${payWithinDate}");
+  print("The Customer Required bill After Due Date is: ${afterDate}");
+  
+  if(now==fifteenDaysFromNow){
+    print("The customer Paid Within Due Date  . And \nThe cost of the bill is: ${payWithinDate}");
+  }else {
+    print("The customer Paid After Due Date  . And \nThe cost of the bill is: ${afterDate}");
+    
+  }
+  
+  
+  
+  
+  print("====== Alhamdullilah Assignment 2 Completed =============");
   
   
   
