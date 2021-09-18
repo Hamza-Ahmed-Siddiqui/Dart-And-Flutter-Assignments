@@ -27,5 +27,8 @@ void main(){
     
   } else{
     print("You required Percentage is ${percntage} and you Type wrong Marks");
+
   }
+
+  print("============ Alhamdullilah Assignment 1 Completed !!!");
 }
