@@ -71,6 +71,7 @@ void main(){
   
   
   print("================ Answer#9 ==============");
+ print("=============== Print To Make Calculator ==============");
   
   int firstNumber = 5;
   int secondNumber = 5;
@@ -85,6 +86,20 @@ void main(){
     print(firstNumber/secondNumber);
   } else {
     print("False");
+  }
+  
+
+
+
+
+ print("================ Answer#10 ==============");
+  print("=========== Print To Find Out The Vowels Or Not Vowels !!! =========");
+  
+    String check = "a";
+  if( check=="a" || check=="e"|| check=="i" || check=="o" || check=="u" ){
+    print(" The Character you entered is Vowel.");
+  } else {
+    print("The Character you entered is Not Vowel.");
   }
   
 
