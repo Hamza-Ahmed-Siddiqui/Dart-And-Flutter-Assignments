@@ -70,6 +70,22 @@ void main(){
   
   
   
-
+  print("================ Answer#9 ==============");
   
+  int firstNumber = 5;
+  int secondNumber = 5;
+  var operator = "+";
+  if(operator == "+"){
+    print(firstNumber+secondNumber);
+  }else if(operator == "-"){
+    print(firstNumber-secondNumber);
+    }else if(operator == "*"){
+    print(firstNumber*secondNumber); 
+  }else if(operator == "/"){
+    print(firstNumber/secondNumber);
+  } else {
+    print("False");
+  }
+  
+
   }
